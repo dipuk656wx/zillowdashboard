@@ -134,7 +134,7 @@ const SearchResult = () => {
                             <tr key={index}>
                                 <td>
                                     <input
-                                        className='w-[10px] h-[10px]'
+                                        className='w-[15px] h-[15px]'
                                         type="checkbox"
                                         checked={selectedRows.includes(item.phoneNumber)}
                                         onChange={() => handleCheckboxClick(item.phoneNumber)}

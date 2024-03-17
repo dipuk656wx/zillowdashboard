@@ -70,7 +70,7 @@ router.post("/sendMessage", async (req, res) => {
             return twilio_client.messages.create({
                 from: senderNumber,
                 body: message,
-                to: "+917091702233"
+                to: number
             });
         });
 
